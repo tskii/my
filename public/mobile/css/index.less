@@ -1,1 +1,106 @@
-  
+// 内容
+.lt_view {
+    position: relative;
+    height: 100%; // 六分类
+    padding: 0 120px;
+    .classify {
+        padding: 0 10px;
+        ul {
+            list-style: none;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            li {
+                float: left;
+                width: 33.3%;
+                a {
+                    display: block;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    } // 买就送专区
+    .send {
+        margin: 10px 0;
+        padding: 0 10px;
+        border-top: 1px solid #808080;
+        a:nth-child(2n+1) {
+            display: block;
+            float: left;
+            width: 67.1%;
+            img {
+                width: 50%;
+                float: left;
+            }
+        }
+        a:nth-child(2) {
+            width: 32.9%;
+            float: right;
+            img {
+                width: 100%;
+            }
+        }
+    } // 品牌专区
+    .brand {
+        span {
+            img {
+                width: 100%;
+            }
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+            li {
+                float: left;
+                width: 25%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    } // 运动生活专区
+    .adidas_neo {
+        span {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .xiezi {
+        padding: 0 10px 0 0;
+    }
+    .box {
+        float: left;
+        width: 47%;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        img {
+            width: 100%;
+        }
+        .qian {
+            font-size: 12px;
+        }
+        span {
+            color: red;
+        }
+        button {
+            margin-bottom: 10px;
+        }
+    } // .女士专栏
+    .madam {
+        span {
+            margin-top: 20px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .madam_xie {
+        padding: 0 10px 0 0;
+        margin-top: 10px;
+    }
+}

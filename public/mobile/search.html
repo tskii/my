@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/mui/css/mui.css">
+    <link rel="stylesheet" href="./asset/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+
+<body>
+    <header>
+        <h2>
+            搜索中心
+            <a class="mui-pull-left" href="javascript:history.back();">
+                <span class="fa fa-truck"></span>
+            </a>
+        </h2>
+    </header>
+    <div class="big_box">
+        <!-- 搜索框 -->
+        <div class="seek mui-clearfix">
+            <input type="text" placeholder="搜索你喜欢的商品">
+            <button>搜索</button>
+        </div>
+
+        <!-- 搜索历史 -->
+        <div class="history">
+            <p class="mui-clearfix">
+                <span mui-pull-left>搜索历史</span>
+                <a href="javascript:;" class="mui-pull-right">
+                    <span class="fa fa-trash-o">清除记录</span>
+                </a>
+            </p>
+            <div class="record">
+                <ul>
+                    <li class="mui-clearfix">
+                        <span class="mui-pull-left">55</span>
+                        <span class="fa fa-minus-circle mui-pull-right lpl"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <a href="javascript:;">
+            <span class="mui-icon mui-icon-home"></span>
+            <p>首页</p>
+        </a>
+        <a href="javascript:;">
+            <span class="mui-icon mui-icon-bars"></span>
+            <p>分类</p>
+        </a>
+        <a href="javascript:;">
+            <span class="fa fa-motorcycle"></span>
+            <p>购物车</p>
+        </a>
+        <a href="javascript:;">
+            <span class="fa fa-user-plus"></span>
+            <p>会员中心</p>
+        </a>
+    </footer>
+
+</body>
+<script src="./asset/mui/js/mui.js"></script>
+<script src="./asset/zepto/zepto.min.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/search.js"></script>
+
+</html>

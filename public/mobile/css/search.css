@@ -1,0 +1,44 @@
+header h2 a {
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.big_box {
+  padding: 10px 10px;
+}
+.big_box .seek input {
+  width: 80%;
+  float: left;
+  height: 30px;
+  border-right: 0;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 2px solid #6e84ff;
+  font-size: 14px;
+}
+.big_box .seek button {
+  width: 20%;
+  float: left;
+  height: 30px;
+  border-left: 0;
+  background: #6e84ff;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #ffffff;
+}
+.big_box .history p a {
+  color: inherit;
+}
+.big_box .history .record ul li {
+  width: 100%;
+  border: 1px solid #cccccc;
+  height: 30px;
+  line-height: 30px;
+}
+.big_box .history .record ul li a {
+  display: block;
+}

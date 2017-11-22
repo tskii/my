@@ -1,1 +1,95 @@
-/*# sourceMappingURL=./index.css.map */
+.lt_view {
+  position: relative;
+  height: 100%;
+  padding: 0 120px;
+}
+.lt_view .classify {
+  padding: 0 10px;
+}
+.lt_view .classify ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.lt_view .classify ul li {
+  float: left;
+  width: 33.3%;
+}
+.lt_view .classify ul li a {
+  display: block;
+}
+.lt_view .classify ul li a img {
+  width: 100%;
+}
+.lt_view .send {
+  margin: 10px 0;
+  padding: 0 10px;
+  border-top: 1px solid #808080;
+}
+.lt_view .send a:nth-child(2n+1) {
+  display: block;
+  float: left;
+  width: 67.1%;
+}
+.lt_view .send a:nth-child(2n+1) img {
+  width: 50%;
+  float: left;
+}
+.lt_view .send a:nth-child(2) {
+  width: 32.9%;
+  float: right;
+}
+.lt_view .send a:nth-child(2) img {
+  width: 100%;
+}
+.lt_view .brand span img {
+  width: 100%;
+}
+.lt_view .brand ul {
+  padding: 0;
+  list-style: none;
+}
+.lt_view .brand ul li {
+  float: left;
+  width: 25%;
+}
+.lt_view .brand ul li img {
+  width: 100%;
+}
+.lt_view .adidas_neo span img {
+  width: 100%;
+}
+.lt_view .xiezi {
+  padding: 0 10px 0 0;
+}
+.lt_view .box {
+  float: left;
+  width: 47%;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.lt_view .box img {
+  width: 100%;
+}
+.lt_view .box .qian {
+  font-size: 12px;
+}
+.lt_view .box span {
+  color: red;
+}
+.lt_view .box button {
+  margin-bottom: 10px;
+}
+.lt_view .madam span {
+  margin-top: 20px;
+}
+.lt_view .madam span img {
+  width: 100%;
+}
+.lt_view .madam_xie {
+  padding: 0 10px 0 0;
+  margin-top: 10px;
+}
