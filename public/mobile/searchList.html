@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/mui/css/mui.css">
+    <link rel="stylesheet" href="./asset/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/searchList.css">
+</head>
+
+<body>
+    <header>
+        <h2>
+            搜索中心
+            <a class="mui-pull-left" href="javascript:history.back();">
+                <span class="fa fa-truck"></span>
+            </a>
+        </h2>
+    </header>
+
+    <!-- 挑选选项 -->
+    <div class="lt_view">
+        <div id="refreshContainer" class="mui-content mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <!--数据列表-->
+                <ul class="mui-table-view mui-table-view-chevron">
+
+                    <div class="big_box">
+                        <!-- 搜索框 -->
+                        <div class="seek mui-clearfix">
+                            <input type="text" class="searchTxt" placeholder="搜索你喜欢的商品">
+                            <button class="searchBtn">搜索</button>
+                        </div>
+
+                    </div>
+                    <div class="select mui-clearfix">
+                        <a href="javascript:;">
+        上架时间
+        <span class="fa fa-angle-down"></span>
+      </a>
+                        <a href="javascript:;">
+        价格
+        <span class="fa fa-angle-down"></span>
+      </a>
+                        <a href="javascript:;">
+        销量
+        <span class="fa fa-angle-down"></span>
+      </a>
+                        <a href="javascript:;">
+        折扣
+        <span class="fa fa-angle-down"></span>
+      </a>
+                    </div>
+
+                    <div class="madam_xie mui-clearfix">
+                        <!-- <div class="box">
+                            <img src="./images/product.jpg" alt="">
+                            <p>
+                                adidas阿迪达斯 男式 场下休闲篮球鞋S83700
+                            </p>
+                            <p>
+                                <span>￥580.00</span>
+                                <del>￥888.00</del>
+                            </p>
+                            <button type="button" class="mui-btn mui-btn-primary mui-btn-outlined">点击购买</button>
+                        </div> -->
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="javascript:;">
+            <span class="mui-icon mui-icon-home"></span>
+            <p>首页</p>
+        </a>
+        <a href="javascript:;">
+            <span class="mui-icon mui-icon-bars"></span>
+            <p>分类</p>
+        </a>
+        <a href="javascript:;">
+            <span class="fa fa-motorcycle"></span>
+            <p>购物车</p>
+        </a>
+        <a href="javascript:;">
+            <span class="fa fa-user-plus"></span>
+            <p>会员中心</p>
+        </a>
+    </footer>
+
+</body>
+<script type="text/html" id="prolistTpl">
+    {{each data as value}}
+    <div class="box">
+        <img src="{{value.pic[0].picAddr}}" alt="">
+        <p class="wenzi">
+            {{value.proName}}
+        </p>
+        <p>
+            <span>￥{{value.price}}</span>
+            <del>￥{{value.oldPrice}}</del>
+        </p>
+        <button type="button" class="mui-btn mui-btn-primary mui-btn-outlined">点击购买</button>
+    </div>
+    {{/each}}
+</script>
+<script src="./asset/mui/js/mui.js"></script>
+<script src="./asset/artTemplate/template.js"></script>
+<script src="./asset/zepto/zepto.min.js"></script>
+<!-- <script src="./asset/jquery.js"></script> -->
+<script src="./js/common.js"></script>
+<script src="./js/searchList.js"></script>
+
+
+</html>

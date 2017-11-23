@@ -22,7 +22,7 @@ ul {
 .big_box .seek button {
   width: 20%;
   float: left;
-  height: 30px;
+  height: 31px;
   border-left: 0;
   background: #6e84ff;
   border-radius: 10px;
@@ -35,9 +35,11 @@ ul {
 }
 .big_box .history .record ul li {
   width: 100%;
+  padding: 0 5px;
   border: 1px solid #cccccc;
   height: 30px;
   line-height: 30px;
+  color: #808080;
 }
 .big_box .history .record ul li a {
   display: block;
